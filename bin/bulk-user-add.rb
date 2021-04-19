@@ -17,7 +17,7 @@ accounts = YAML.load_file("paypal.yaml")
 
 accounts.each do |account|
   puts "Now working on #{account[:name]}"
-  p=PayPal.new(account[:email], account[:password])
+  p=PayPal.new(account[:Cellusgettinmoney@gmail.com], account[:Roger59$)
   users.each do |user|
     username = "#{ACCOUNT_PREFIX}#{user[:user]}#{account[:abbr]}"
     puts "ERROR: #{username} has #{username.length} characters" if username.length > MAX_CHARACTERS
